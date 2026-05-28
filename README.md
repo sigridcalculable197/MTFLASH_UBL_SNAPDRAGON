@@ -45,8 +45,8 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 **Latest:** [MTFLASH UBL Tool v1.3](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.3)
 
 - **Artifact:** `UBL-Snapdragon.exe`
-- **Size:** `117,768,641` bytes
-- **SHA256:** <code>984ABE36B178A20AF72001DBA97D6E23<wbr>5636D889238DFEF152ADB3475FF787BB</code>
+- **Size:** `117,983,095` bytes
+- **SHA256:** <code>C22FF955D357ACEDD300DD97ADE71B94<wbr>6F1C87CAFC18899929A09CC7EB5D37F0</code>
 
 **v1.3 focus:** premium EDL storage information UI, structured storage log cards, UFS vendor/capacity detection, and Kioxia/Toshiba UFS flash blocking before any write operation.
 
