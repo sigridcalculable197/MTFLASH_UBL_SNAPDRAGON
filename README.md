@@ -20,6 +20,8 @@
   <a href="#tiếng-việt">Tiếng Việt</a>
   &nbsp;|&nbsp;
   <a href="#supported-devices--thiết-bị-hỗ-trợ">Supported Devices</a>
+  &nbsp;|&nbsp;
+  <a href="#contact--liên-hệ">Contact</a>
 </p>
 
 ---
@@ -158,6 +160,24 @@ Phiên bản mới nhất: [MTFLASH UBL Tool v1.1](https://github.com/tamm2904/M
 | Internet access to the MTFLASH/APMPro service is required. | Cần internet để kết nối dịch vụ MTFLASH/APMPro. |
 
 ---
+
+## Contact / Liên Hệ
+
+Official contact channels are listed on the MTFlash contact page.
+
+Các kênh liên hệ chính thức được lấy từ trang liên hệ MTFlash.
+
+| Channel | Contact |
+|---|---|
+| Website | [mtflash.com](https://mtflash.com) |
+| Contact page | [mtflash.com/lien-he.html](https://mtflash.com/lien-he.html) |
+| Firmware portal | [file.mtflash.com](https://file.mtflash.com) |
+| Email | [support@mtflash.com](mailto:support@mtflash.com) |
+| Phone / Zalo | [0975904043](https://zalo.me/0975904043) |
+| WhatsApp | [+84 975 904 043](https://wa.me/84975904043) |
+| Telegram | [@bunnyVN888](https://t.me/bunnyVN888) |
+| Facebook | [facebook.com/play29.mt](https://www.facebook.com/play29.mt) |
+| YouTube | [youtube.com/@phoneauth](https://youtube.com/@phoneauth?si=2-qHa6n4kbLMeBG5) |
 
 ## Support / Hỗ Trợ
 
