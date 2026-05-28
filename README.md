@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.1"><img alt="Version" src="https://img.shields.io/badge/version-v1.1-111111?style=for-the-badge"></a>
+  <a href="https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.2"><img alt="Version" src="https://img.shields.io/badge/version-v1.2-111111?style=for-the-badge"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D4?style=for-the-badge">
   <img alt="Language" src="https://img.shields.io/badge/language-English%20%2F%20Ti%E1%BA%BFng%20Vi%E1%BB%87t-2E7D32?style=for-the-badge">
   <img alt="Brands" src="https://img.shields.io/badge/brands-Xiaomi%20%7C%20ZTE%20%7C%20ASUS-B71C1C?style=for-the-badge">
@@ -39,6 +39,7 @@ MTFLASH UBL Snapdragon is a guided Windows tool for selected Xiaomi, Redmi, POCO
 - Model-specific Mini EngFirmware handling during supported high-version workflows.
 - High-version unlock stops after `unlocked: yes` verification without wiping `misc` or rebooting automatically.
 - Fastboot and EDL flashing screens for supported Xiaomi, ZTE/Nubia/RedMagic, and ASUS devices.
+- EDL storage info check with UFS vendor/capacity detection and Kioxia/Toshiba flash blocking.
 - Firmware download manager with Mini EngFirmware, Full EngFirmware, China Fastboot, and China HyperTN options where available.
 - Device detection through ADB and Fastboot.
 - Root assistant for unlocked devices using supported Magisk, KernelSU, and SukiSU workflows.
@@ -47,11 +48,11 @@ MTFLASH UBL Snapdragon is a guided Windows tool for selected Xiaomi, Redmi, POCO
 
 ### Download
 
-Latest release: [MTFLASH UBL Tool v1.1](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.1)
+Latest release: [MTFLASH UBL Tool v1.2](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.2)
 
 | File | Size | SHA256 |
 |---|---:|---|
-| `UBL-Snapdragon.exe` | `117,749,576` bytes | `E12629EFA7157B7272F07E96F49C083474102AB59089BE0F29479ABE39BF4E24` |
+| `UBL-Snapdragon.exe` | `117,763,134` bytes | `069F31DF524B8EA48500193266D03D029E1AB0767B1A7221207605E2FF155EAF` |
 
 ### Basic Usage
 
@@ -87,6 +88,7 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 - Xử lý Mini EngFirmware theo từng model trong các workflow high-version được hỗ trợ.
 - Nhánh high-version dừng sau khi verify `unlocked: yes`, không wipe `misc` và không tự reboot.
 - Màn hình Fastboot và EDL cho các thiết bị Xiaomi, ZTE/Nubia/RedMagic và ASUS được hỗ trợ.
+- Màn hình EDL có kiểm tra đầy đủ thông tin UFS, nhận diện vendor/dung lượng và chặn flash khi phát hiện UFS Kioxia/Toshiba.
 - Trình tải firmware với Mini EngFirmware, Full EngFirmware, China Fastboot và China HyperTN nếu model có dữ liệu tương ứng.
 - Nhận diện thiết bị qua ADB và Fastboot.
 - Hỗ trợ root cho thiết bị đã unlock bằng các workflow Magisk, KernelSU và SukiSU tương thích.
@@ -95,11 +97,11 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 
 ### Tải Xuống
 
-Phiên bản mới nhất: [MTFLASH UBL Tool v1.1](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.1)
+Phiên bản mới nhất: [MTFLASH UBL Tool v1.2](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.2)
 
 | File | Dung lượng | SHA256 |
 |---|---:|---|
-| `UBL-Snapdragon.exe` | `117,749,576` bytes | `E12629EFA7157B7272F07E96F49C083474102AB59089BE0F29479ABE39BF4E24` |
+| `UBL-Snapdragon.exe` | `117,763,134` bytes | `069F31DF524B8EA48500193266D03D029E1AB0767B1A7221207605E2FF155EAF` |
 
 ### Cách Sử Dụng Cơ Bản
 
