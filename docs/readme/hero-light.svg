@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="MTFLASH UBL Snapdragon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="0.52" stop-color="#eef4ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.36"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0078d4"/>
+      <stop offset="0.52" stop-color="#6554ff"/>
+      <stop offset="1" stop-color="#00a875"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.05 0 0 0 0 0.48 0 0 0 0 0.95 0 0 0 0.28 0"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#5f6f90" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" rx="34" fill="url(#bg)"/>
+  <circle cx="170" cy="84" r="136" fill="#79d8ff" opacity="0.42" filter="url(#softGlow)"/>
+  <circle cx="1030" cy="320" r="154" fill="#7df2cc" opacity="0.38" filter="url(#softGlow)"/>
+  <circle cx="900" cy="70" r="110" fill="#b0a7ff" opacity="0.34" filter="url(#softGlow)"/>
+
+  <path d="M54 335 C190 265 276 372 420 292 C559 215 634 246 778 184 C920 123 1014 170 1150 92" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.24"/>
+  <path d="M72 96 H1128" stroke="#1a2942" stroke-opacity="0.08"/>
+  <path d="M72 327 H1128" stroke="#1a2942" stroke-opacity="0.08"/>
+
+  <rect x="68" y="72" width="1064" height="276" rx="26" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.85" filter="url(#shadow)"/>
+  <rect x="96" y="100" width="188" height="42" rx="21" fill="#0078d4" fill-opacity="0.10" stroke="#0078d4" stroke-opacity="0.24"/>
+  <text x="126" y="127" fill="#0067b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2">VERSION 1.2</text>
+
+  <text x="96" y="190" fill="#101827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="0">MTFLASH UBL</text>
+  <text x="96" y="245" fill="#2d3a58" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="1">SNAPDRAGON</text>
+  <rect x="98" y="270" width="430" height="4" rx="2" fill="url(#accent)"/>
+  <text x="96" y="310" fill="#536179" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="500">Unlock, firmware, EDL, Fastboot, storage safety, and root workflows</text>
+
+  <g transform="translate(704 116)">
+    <rect x="0" y="0" width="360" height="192" rx="24" fill="#ffffff" fill-opacity="0.78" stroke="#ffffff" stroke-opacity="0.95"/>
+    <rect x="26" y="28" width="132" height="34" rx="17" fill="#0078d4" fill-opacity="0.10" stroke="#0078d4" stroke-opacity="0.30"/>
+    <text x="44" y="51" fill="#0067b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">EDL SAFE</text>
+    <rect x="176" y="28" width="148" height="34" rx="17" fill="#00a875" fill-opacity="0.11" stroke="#00a875" stroke-opacity="0.30"/>
+    <text x="195" y="51" fill="#007c58" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">UFS CHECK</text>
+    <text x="30" y="98" fill="#101827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="750">Kioxia/Toshiba blocking</text>
+    <text x="30" y="130" fill="#536179" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Vendor, product, capacity, LUN,</text>
+    <text x="30" y="154" fill="#536179" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">firmware, and serial parsing.</text>
+  </g>
+</svg>
