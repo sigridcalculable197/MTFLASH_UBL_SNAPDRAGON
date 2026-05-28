@@ -45,12 +45,12 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 **Latest:** [MTFLASH UBL Tool v1.3](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.3)
 
 - **Artifact:** `UBL-Snapdragon.exe`
-- **Size:** `117,983,860` bytes
-- **SHA256:** <code>C1CF16F0103FF13E32D4000BFC55C53C<wbr>27E85ABC78E33FE0A12A2EA7B9CDA744</code>
+- **Size:** `117,984,730` bytes
+- **SHA256:** <code>481972A872852739E0A267214FCE9652<wbr>1AC4C527E59B7A6364A63141725F0B52</code>
 
-**v1.3 focus:** refined compact EDL storage information UI, structured storage log cards, UFS vendor/capacity detection, and Kioxia/Toshiba UFS flash blocking before any write operation.
+**v1.3 focus:** refined compact EDL storage information UI, structured storage log cards, UFS vendor/capacity detection, Kioxia/Toshiba UFS flash blocking, and Xiaomi Pad 7 resource cache self-healing.
 
-**Trọng tâm v1.3:** tinh chỉnh giao diện thông tin storage trong EDL gọn hơn, log storage dạng card chuyên nghiệp, nhận diện vendor/dung lượng UFS và chặn flash khi phát hiện UFS Kioxia/Toshiba trước mọi thao tác ghi.
+**Trọng tâm v1.3:** tinh chỉnh giao diện thông tin storage trong EDL gọn hơn, log storage dạng card chuyên nghiệp, nhận diện vendor/dung lượng UFS, chặn flash Kioxia/Toshiba và tự bù cache tài nguyên Xiaomi Pad 7.
 
 ## Feature Map
 
