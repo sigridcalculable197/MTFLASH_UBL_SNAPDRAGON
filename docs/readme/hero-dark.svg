@@ -1,55 +1,102 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="MTFLASH UBL Snapdragon">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="MTFLASH UBL Snapdragon v1.3 premium EDL storage interface">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#07090f"/>
-      <stop offset="0.48" stop-color="#10141f"/>
-      <stop offset="1" stop-color="#06070b"/>
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="0.46" stop-color="#0d1421"/>
+      <stop offset="1" stop-color="#060a11"/>
     </linearGradient>
-    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.24"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0.06"/>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="panelStrong" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111a2b" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#070b12" stop-opacity="0.92"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00d1ff"/>
-      <stop offset="0.5" stop-color="#7c5cff"/>
-      <stop offset="1" stop-color="#23e6a8"/>
+      <stop offset="0" stop-color="#0ac8ff"/>
+      <stop offset="0.42" stop-color="#6c63ff"/>
+      <stop offset="0.78" stop-color="#27e2a4"/>
+      <stop offset="1" stop-color="#ffd166"/>
     </linearGradient>
-    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="28" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.04 0 0 0 0 0.72 0 0 0 0 1 0 0 0 0.58 0"/>
-      <feBlend in="SourceGraphic" mode="screen"/>
-    </filter>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.42"/>
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000000" flood-opacity="0.46"/>
+    </filter>
+    <filter id="smallShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.34"/>
     </filter>
   </defs>
 
   <rect width="1200" height="420" rx="34" fill="url(#bg)"/>
-  <circle cx="170" cy="84" r="136" fill="#00c8ff" opacity="0.20" filter="url(#softGlow)"/>
-  <circle cx="1030" cy="320" r="154" fill="#23e6a8" opacity="0.15" filter="url(#softGlow)"/>
-  <circle cx="900" cy="70" r="110" fill="#7c5cff" opacity="0.18" filter="url(#softGlow)"/>
+  <rect width="1200" height="420" rx="34" fill="url(#grid)"/>
+  <path d="M74 348C242 262 329 374 491 284C640 201 752 224 900 143C1007 84 1084 92 1140 49" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.25"/>
+  <path d="M0 64H1200" stroke="#ffffff" stroke-opacity="0.06"/>
+  <path d="M0 356H1200" stroke="#ffffff" stroke-opacity="0.06"/>
+  <path d="M103 -22L1234 335" stroke="url(#shine)" stroke-width="72" opacity="0.18"/>
 
-  <path d="M54 335 C190 265 276 372 420 292 C559 215 634 246 778 184 C920 123 1014 170 1150 92" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.28"/>
-  <path d="M72 96 H1128" stroke="#ffffff" stroke-opacity="0.08"/>
-  <path d="M72 327 H1128" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect x="64" y="58" width="1072" height="304" rx="30" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.18" filter="url(#shadow)"/>
+  <rect x="65" y="59" width="1070" height="302" rx="29" fill="none" stroke="#8be9ff" stroke-opacity="0.10"/>
 
-  <rect x="68" y="72" width="1064" height="276" rx="26" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.20" filter="url(#shadow)"/>
-  <rect x="96" y="100" width="188" height="42" rx="21" fill="#ffffff" fill-opacity="0.10" stroke="#ffffff" stroke-opacity="0.18"/>
-  <text x="126" y="127" fill="#b9f4ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2">VERSION 1.2</text>
+  <g transform="translate(96 91)">
+    <rect x="0" y="0" width="196" height="42" rx="21" fill="#ffffff" fill-opacity="0.09" stroke="#ffffff" stroke-opacity="0.18"/>
+    <rect x="8" y="8" width="26" height="26" rx="13" fill="#23e6a8" fill-opacity="0.18" stroke="#23e6a8" stroke-opacity="0.5"/>
+    <text x="47" y="27" fill="#cdf8ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="2">VERSION 1.3</text>
 
-  <text x="96" y="190" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="0">MTFLASH UBL</text>
-  <text x="96" y="245" fill="#d8e2ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="1">SNAPDRAGON</text>
-  <rect x="98" y="270" width="430" height="4" rx="2" fill="url(#accent)"/>
-  <text x="96" y="310" fill="#b8c2d6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="500">Unlock, firmware, EDL, Fastboot, storage safety, and root workflows</text>
+    <text x="0" y="104" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="56" font-weight="850" letter-spacing="0">MTFLASH UBL</text>
+    <text x="2" y="158" fill="#d7e3ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="760" letter-spacing="1">SNAPDRAGON</text>
+    <rect x="3" y="183" width="456" height="4" rx="2" fill="url(#accent)"/>
+    <text x="0" y="222" fill="#bdc9dc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="520">Professional unlock, EDL, Fastboot, storage safety,</text>
+    <text x="0" y="250" fill="#bdc9dc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="520">firmware, and root workspace for Snapdragon devices.</text>
 
-  <g transform="translate(704 116)">
-    <rect x="0" y="0" width="360" height="192" rx="24" fill="#08101a" fill-opacity="0.70" stroke="#ffffff" stroke-opacity="0.16"/>
-    <rect x="26" y="28" width="132" height="34" rx="17" fill="#00d1ff" fill-opacity="0.16" stroke="#00d1ff" stroke-opacity="0.40"/>
-    <text x="44" y="51" fill="#c7f7ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">EDL SAFE</text>
-    <rect x="176" y="28" width="148" height="34" rx="17" fill="#23e6a8" fill-opacity="0.14" stroke="#23e6a8" stroke-opacity="0.36"/>
-    <text x="195" y="51" fill="#d7fff2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">UFS CHECK</text>
-    <text x="30" y="98" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="750">Kioxia/Toshiba blocking</text>
-    <text x="30" y="130" fill="#aeb9cb" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Vendor, product, capacity, LUN,</text>
-    <text x="30" y="154" fill="#aeb9cb" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">firmware, and serial parsing.</text>
+    <g transform="translate(0 283)">
+      <rect x="0" y="0" width="132" height="34" rx="17" fill="#0ac8ff" fill-opacity="0.14" stroke="#0ac8ff" stroke-opacity="0.34"/>
+      <text x="22" y="22" fill="#bbf2ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">8G3 BUILTIN</text>
+      <rect x="145" y="0" width="145" height="34" rx="17" fill="#23e6a8" fill-opacity="0.13" stroke="#23e6a8" stroke-opacity="0.34"/>
+      <text x="167" y="22" fill="#cbffed" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">UFS SAFETY</text>
+      <rect x="303" y="0" width="156" height="34" rx="17" fill="#ffd166" fill-opacity="0.13" stroke="#ffd166" stroke-opacity="0.34"/>
+      <text x="325" y="22" fill="#ffe7a3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">KIOXIA BLOCK</text>
+    </g>
+  </g>
+
+  <g transform="translate(642 86)" filter="url(#smallShadow)">
+    <rect x="0" y="0" width="444" height="248" rx="26" fill="url(#panelStrong)" stroke="#ffffff" stroke-opacity="0.17"/>
+    <rect x="0" y="0" width="444" height="48" rx="26" fill="#ffffff" fill-opacity="0.06"/>
+    <path d="M0 48H444" stroke="#ffffff" stroke-opacity="0.10"/>
+    <circle cx="26" cy="24" r="7" fill="#23e6a8"/>
+    <circle cx="48" cy="24" r="7" fill="#ffd166"/>
+    <circle cx="70" cy="24" r="7" fill="#ff5d6c"/>
+    <text x="94" y="30" fill="#f4f7fb" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">EDL Flash - Storage Intelligence</text>
+
+    <g transform="translate(24 70)">
+      <rect x="0" y="0" width="126" height="154" rx="18" fill="#ffffff" fill-opacity="0.055" stroke="#ffffff" stroke-opacity="0.12"/>
+      <rect x="14" y="16" width="98" height="28" rx="14" fill="#0ac8ff" fill-opacity="0.92"/>
+      <text x="32" y="35" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="850">CHECK</text>
+      <rect x="14" y="58" width="98" height="26" rx="13" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.11"/>
+      <text x="35" y="76" fill="#c3cad8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">ROM XML</text>
+      <rect x="14" y="98" width="98" height="26" rx="13" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.11"/>
+      <text x="39" y="116" fill="#c3cad8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">DEVPRG</text>
+      <text x="14" y="143" fill="#27e2a4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="800">SK hynix - 509.2 GB</text>
+    </g>
+
+    <g transform="translate(174 70)">
+      <rect x="0" y="0" width="238" height="154" rx="18" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.13"/>
+      <text x="18" y="29" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="830">UFS Storage Profile</text>
+      <text x="18" y="54" fill="#9ba8ba" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">HN8T274EJKX130</text>
+      <rect x="18" y="74" width="92" height="30" rx="15" fill="#23e6a8" fill-opacity="0.14" stroke="#23e6a8" stroke-opacity="0.35"/>
+      <text x="39" y="94" fill="#d6fff1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="850">SAFE</text>
+      <rect x="122" y="74" width="92" height="30" rx="15" fill="#0ac8ff" fill-opacity="0.14" stroke="#0ac8ff" stroke-opacity="0.35"/>
+      <text x="144" y="94" fill="#c8f6ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="850">6 LUN</text>
+      <path d="M18 121H214" stroke="#ffffff" stroke-opacity="0.10"/>
+      <text x="18" y="143" fill="#c6d0df" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="680">Capacity 509.2 GB - FW 104</text>
+    </g>
   </g>
 </svg>
