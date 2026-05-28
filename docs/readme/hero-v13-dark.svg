@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="MTFLASH UBL Snapdragon v1.3 compact storage log fix">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b0c"/>
+      <stop offset="1" stop-color="#111214"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18191c" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#101113" stop-opacity="0.86"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151619"/>
+      <stop offset="1" stop-color="#0a0a0b"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.026"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="32" fill="url(#grid)"/>
+
+  <rect x="64" y="54" width="1072" height="312" rx="26" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.11" filter="url(#shadow)"/>
+  <path d="M64 117H1136" stroke="#ffffff" stroke-opacity="0.06"/>
+
+  <g transform="translate(96 88)">
+    <rect x="0" y="0" width="270" height="38" rx="10" fill="#0f1012" stroke="#2b2d32"/>
+    <circle cx="20" cy="19" r="7" fill="#30d158"/>
+    <text x="39" y="24" fill="#e8e8e8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="1.8">V1.3 STORAGE LOG FIX</text>
+
+    <text x="0" y="106" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="850">MTFLASH UBL</text>
+    <text x="2" y="154" fill="#bfc4cf" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="1">SNAPDRAGON</text>
+    <rect x="2" y="180" width="420" height="3" rx="1.5" fill="#0a84ff"/>
+    <text x="0" y="219" fill="#a2a8b3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Compact dark UI for unlock, EDL, Fastboot,</text>
+    <text x="0" y="247" fill="#a2a8b3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">storage safety, firmware, and root workflows.</text>
+
+    <g transform="translate(0 286)">
+      <rect x="0" y="0" width="126" height="30" rx="8" fill="#101113" stroke="#2b2d32"/>
+      <text x="19" y="20" fill="#d6d9df" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800">9008 READY</text>
+      <rect x="140" y="0" width="150" height="30" rx="8" fill="#101113" stroke="#2b2d32"/>
+      <text x="162" y="20" fill="#d6d9df" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800">COMPACT LOG</text>
+      <rect x="304" y="0" width="150" height="30" rx="8" fill="#101113" stroke="#2b2d32"/>
+      <text x="326" y="20" fill="#d6d9df" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800">KIOXIA BLOCK</text>
+    </g>
+  </g>
+
+  <g transform="translate(648 86)">
+    <rect x="0" y="0" width="442" height="248" rx="18" fill="url(#screen)" stroke="#2b2d32"/>
+    <rect x="0" y="0" width="442" height="42" rx="18" fill="#121317"/>
+    <path d="M0 42H442" stroke="#262626"/>
+    <circle cx="24" cy="21" r="6.5" fill="#30d158"/>
+    <circle cx="45" cy="21" r="6.5" fill="#febc2e"/>
+    <circle cx="66" cy="21" r="6.5" fill="#ff5f57"/>
+    <text x="92" y="26" fill="#f0f0f0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">EDL Flash</text>
+
+    <g transform="translate(20 60)">
+      <rect x="0" y="0" width="114" height="160" rx="12" fill="#141414" stroke="#262626"/>
+      <rect x="12" y="14" width="90" height="28" rx="8" fill="#0a84ff"/>
+      <text x="28" y="33" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800">CHECK</text>
+      <rect x="12" y="56" width="90" height="24" rx="7" fill="#111111" stroke="#262626"/>
+      <text x="31" y="72" fill="#8d929c" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700">ROM XML</text>
+      <rect x="12" y="93" width="90" height="24" rx="7" fill="#111111" stroke="#262626"/>
+      <text x="36" y="109" fill="#8d929c" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700">DEVPRG</text>
+      <text x="12" y="145" fill="#30d158" font-family="Consolas, Courier New, monospace" font-size="9" font-weight="700">SK hynix 509.2 GB</text>
+    </g>
+
+    <g transform="translate(154 60)">
+      <rect x="0" y="0" width="266" height="160" rx="12" fill="#141414" stroke="#262626"/>
+      <g transform="translate(14 14)">
+        <rect x="0" y="0" width="3" height="24" rx="1.5" fill="#30d158"/>
+        <circle cx="21" cy="12" r="11" fill="#101113" stroke="#2f3338"/>
+        <path d="M16 12l4 4 8-9" fill="none" stroke="#30d158" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="42" y="11" fill="#f0f0f0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">UFS Storage Profile</text>
+        <text x="42" y="27" fill="#30d158" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700">Supported storage</text>
+        <rect x="210" y="4" width="42" height="20" rx="7" fill="#101113" stroke="#2f3338"/>
+        <text x="222" y="18" fill="#a2a8b3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="800">UFS</text>
+      </g>
+      <path d="M14 52H252" stroke="#262626"/>
+      <text x="14" y="78" fill="#f0f0f0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">SK hynix</text>
+      <text x="196" y="78" fill="#a2a8b3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">509.2 GB</text>
+      <text x="14" y="98" fill="#8d929c" font-family="Consolas, Courier New, monospace" font-size="10">HN8T274EJKX130</text>
+      <g font-family="Consolas, Courier New, monospace" font-size="10">
+        <text x="14" y="124" fill="#6f7580">LUN</text><text x="72" y="124" fill="#d6d9df">6</text>
+        <text x="132" y="124" fill="#6f7580">FW</text><text x="184" y="124" fill="#d6d9df">104</text>
+        <text x="14" y="145" fill="#6f7580">ID</text><text x="72" y="145" fill="#d6d9df">0x1AD / 429</text>
+      </g>
+    </g>
+  </g>
+</svg>

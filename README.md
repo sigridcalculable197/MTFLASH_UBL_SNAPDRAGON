@@ -1,9 +1,9 @@
 # MTFLASH UBL Snapdragon
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="docs/readme/hero-light.svg">
-  <img alt="MTFLASH UBL Snapdragon premium glass banner" src="docs/readme/hero-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/hero-v13-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="docs/readme/hero-v13-light.svg">
+  <img alt="MTFLASH UBL Snapdragon v1.3 compact storage log banner" src="docs/readme/hero-v13-dark.svg" width="100%">
 </picture>
 
 <p align="center">
