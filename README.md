@@ -7,8 +7,9 @@
 
 <p align="center">
   <a href="https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.1"><img alt="Version" src="https://img.shields.io/badge/version-v1.1-111111?style=for-the-badge"></a>
-  <img alt="Windows" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D4?style=for-the-badge">
-  <img alt="Languages" src="https://img.shields.io/badge/language-English%20%2F%20Ti%E1%BA%BFng%20Vi%E1%BB%87t-2E7D32?style=for-the-badge">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D4?style=for-the-badge">
+  <img alt="Language" src="https://img.shields.io/badge/language-English%20%2F%20Ti%E1%BA%BFng%20Vi%E1%BB%87t-2E7D32?style=for-the-badge">
+  <img alt="Brands" src="https://img.shields.io/badge/brands-Xiaomi%20%7C%20ZTE%20%7C%20ASUS-B71C1C?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -16,9 +17,9 @@
   &nbsp;|&nbsp;
   <a href="#english">English</a>
   &nbsp;|&nbsp;
-  <a href="#ti%E1%BA%BFng-vi%E1%BB%87t">Tiếng Việt</a>
+  <a href="#tiếng-việt">Tiếng Việt</a>
   &nbsp;|&nbsp;
-  <a href="#supported-devices--thi%E1%BA%BFt-b%E1%BB%8B-h%E1%BB%97-tr%E1%BB%A3">Supported Devices</a>
+  <a href="#supported-devices--thiết-bị-hỗ-trợ">Supported Devices</a>
 </p>
 
 ---
@@ -27,47 +28,47 @@
 
 ### Overview
 
-MTFLASH UBL Snapdragon is a guided Windows tool for servicing selected Xiaomi, Redmi, POCO, ZTE, Nubia, RedMagic, and ASUS Snapdragon devices. It is built for technicians who need a clear workflow, live logs, device detection, firmware handling, and model-specific safety checks.
+MTFLASH UBL Snapdragon is a guided Windows tool for selected Xiaomi, Redmi, POCO, ZTE, Nubia, RedMagic, and ASUS Snapdragon devices. It focuses on clear servicing workflows, model-aware checks, live logs, firmware handling, and step-by-step device operations for authorized users.
 
 ### Main Features
 
-- Guided bootloader unlock workflows for supported Snapdragon devices.
-- Xiaomi high-version unlock support for Snapdragon 8 Gen 3 and 8s Gen 3 security patches from `2026-02-01` and newer.
-- Fastboot and EDL flash screens for supported brands.
+- Guided bootloader unlock workflows for supported Snapdragon models.
+- Xiaomi high-version unlock support for Snapdragon 8 Gen 3 and 8s Gen 3 devices on security patch `2026-02-01` and newer.
+- Model-specific Mini EngFirmware handling during supported high-version workflows.
+- High-version unlock stops after `unlocked: yes` verification without wiping `misc` or rebooting automatically.
+- Fastboot and EDL flashing screens for supported Xiaomi, ZTE/Nubia/RedMagic, and ASUS devices.
 - Firmware download manager with Mini EngFirmware, Full EngFirmware, China Fastboot, and China HyperTN options where available.
-- Model detection through connected ADB/Fastboot devices.
-- Root assistant for unlocked devices with supported Magisk, KernelSU, and SukiSU workflows.
-- English and Vietnamese interface.
-- Voice prompts, sound cues, progress logs, and guided confirmation dialogs.
+- Device detection through ADB and Fastboot.
+- Root assistant for unlocked devices using supported Magisk, KernelSU, and SukiSU workflows.
+- English and Vietnamese interface with progress logs, sound cues, voice prompts, and confirmation dialogs.
 - QR-based online authorization through App_MTFLASH.
 
 ### Download
 
-Latest version: [MTFLASH UBL Tool v1.1](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.1)
+Latest release: [MTFLASH UBL Tool v1.1](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.1)
 
-Release asset:
-
-- `UBL-Snapdragon.exe`
-- SHA256: `1EE93F228A59825889B7FC011B6960558326F1A3491B57AF04D25B26AC3C0633`
+| File | Size | SHA256 |
+|---|---:|---|
+| `UBL-Snapdragon.exe` | `117,749,576` bytes | `E12629EFA7157B7272F07E96F49C083474102AB59089BE0F29479ABE39BF4E24` |
 
 ### Basic Usage
 
 1. Download `UBL-Snapdragon.exe` from the release page.
 2. Install the correct USB driver for your device.
-3. Open the tool on Windows 10 or Windows 11.
-4. Authorize the session using App_MTFLASH by scanning the QR or entering the short number.
-5. Connect the device in the requested mode: Android, Fastboot, FastbootD, or EDL.
+3. Run the tool on Windows 10 or Windows 11.
+4. Authorize the session with App_MTFLASH by scanning the QR code or entering the short code.
+5. Connect the device in the mode requested by the selected workflow: Android, Fastboot, FastbootD, or EDL.
 6. Select the correct brand, chip, and model, or use device detection when available.
-7. Follow the on-screen steps exactly. Read the log before continuing at each confirmation.
-8. Do not disconnect the device while a flash, unlock, erase, or reboot step is running.
+7. Follow each on-screen step and read the live log before confirming the next action.
+8. Do not disconnect the device during unlock, flash, erase, firmware, or reboot operations.
 
 ### Safety Notes
 
 - Use only the model that matches the connected device.
-- Backup important data before any unlock, root, wipe, or firmware workflow.
-- A locked bootloader, unsupported security patch, wrong model, unstable cable, or weak battery can interrupt the process.
-- The tool may request Fastboot, FastbootD, EDL, or manual key combinations depending on the model.
-- Internet is required for QR authorization and online firmware options.
+- Back up important data before unlock, root, wipe, or firmware operations.
+- A locked bootloader, unsupported security patch, unstable cable, weak battery, or wrong model selection can interrupt the workflow.
+- Some workflows require manual key combinations or switching between Android, Fastboot, FastbootD, and EDL.
+- Internet access is required for authorization and online firmware options.
 
 ---
 
@@ -75,28 +76,28 @@ Release asset:
 
 ### Tổng Quan
 
-MTFLASH UBL Snapdragon là công cụ Windows hướng dẫn thao tác kỹ thuật cho các thiết bị Snapdragon được hỗ trợ thuộc Xiaomi, Redmi, POCO, ZTE, Nubia, RedMagic và ASUS. Công cụ tập trung vào quy trình rõ ràng, log trực tiếp, nhận diện thiết bị, xử lý firmware và kiểm tra an toàn theo từng model.
+MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số thiết bị Snapdragon thuộc Xiaomi, Redmi, POCO, ZTE, Nubia, RedMagic và ASUS. Công cụ tập trung vào quy trình thao tác rõ ràng, kiểm tra theo đúng model, log trực tiếp, xử lý firmware và các bước thao tác thiết bị dành cho người dùng đã được cấp quyền.
 
 ### Tính Năng Chính
 
-- Hỗ trợ quy trình unlock bootloader có hướng dẫn cho các thiết bị Snapdragon tương thích.
-- Hỗ trợ Xiaomi high-version cho Snapdragon 8 Gen 3 và 8s Gen 3 từ bản vá bảo mật `2026-02-01` trở lên.
-- Màn hình Fastboot và EDL cho các thương hiệu được hỗ trợ.
+- Hỗ trợ quy trình unlock bootloader có hướng dẫn cho các model Snapdragon được hỗ trợ.
+- Hỗ trợ Xiaomi high-version cho Snapdragon 8 Gen 3 và 8s Gen 3 với security patch từ `2026-02-01` trở lên.
+- Xử lý Mini EngFirmware theo từng model trong các workflow high-version được hỗ trợ.
+- Nhánh high-version dừng sau khi verify `unlocked: yes`, không wipe `misc` và không tự reboot.
+- Màn hình Fastboot và EDL cho các thiết bị Xiaomi, ZTE/Nubia/RedMagic và ASUS được hỗ trợ.
 - Trình tải firmware với Mini EngFirmware, Full EngFirmware, China Fastboot và China HyperTN nếu model có dữ liệu tương ứng.
-- Nhận diện model qua thiết bị đang kết nối ở ADB/Fastboot.
+- Nhận diện thiết bị qua ADB và Fastboot.
 - Hỗ trợ root cho thiết bị đã unlock bằng các workflow Magisk, KernelSU và SukiSU tương thích.
-- Giao diện tiếng Anh và tiếng Việt.
-- Có giọng nói hướng dẫn, âm báo, log tiến trình và hộp thoại xác nhận theo từng bước.
+- Giao diện tiếng Anh và tiếng Việt, có log tiến trình, âm báo, giọng nói hướng dẫn và hộp thoại xác nhận.
 - Xác thực online bằng QR thông qua App_MTFLASH.
 
 ### Tải Xuống
 
 Phiên bản mới nhất: [MTFLASH UBL Tool v1.1](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.1)
 
-Tệp phát hành:
-
-- `UBL-Snapdragon.exe`
-- SHA256: `1EE93F228A59825889B7FC011B6960558326F1A3491B57AF04D25B26AC3C0633`
+| File | Dung lượng | SHA256 |
+|---|---:|---|
+| `UBL-Snapdragon.exe` | `117,749,576` bytes | `E12629EFA7157B7272F07E96F49C083474102AB59089BE0F29479ABE39BF4E24` |
 
 ### Cách Sử Dụng Cơ Bản
 
@@ -104,18 +105,18 @@ Tệp phát hành:
 2. Cài đúng USB driver cho thiết bị.
 3. Mở công cụ trên Windows 10 hoặc Windows 11.
 4. Xác thực phiên làm việc bằng App_MTFLASH qua mã QR hoặc mã ngắn.
-5. Kết nối thiết bị đúng chế độ được yêu cầu: Android, Fastboot, FastbootD hoặc EDL.
-6. Chọn đúng thương hiệu, chip và model, hoặc dùng chức năng nhận diện thiết bị nếu có.
-7. Làm đúng theo từng bước trên màn hình. Đọc log trước khi bấm xác nhận tiếp tục.
-8. Không rút cáp khi công cụ đang flash, unlock, erase hoặc reboot thiết bị.
+5. Kết nối thiết bị đúng chế độ mà workflow yêu cầu: Android, Fastboot, FastbootD hoặc EDL.
+6. Chọn đúng thương hiệu, chip và model, hoặc dùng nhận diện thiết bị nếu có.
+7. Thực hiện đúng từng bước trên màn hình và đọc log trước khi xác nhận bước tiếp theo.
+8. Không rút cáp khi công cụ đang unlock, flash, erase, xử lý firmware hoặc reboot thiết bị.
 
 ### Lưu Ý An Toàn
 
 - Chỉ thao tác với đúng model trùng với thiết bị đang kết nối.
-- Sao lưu dữ liệu quan trọng trước khi unlock, root, wipe hoặc chạy firmware.
-- Bootloader đang khóa, bản vá chưa hỗ trợ, chọn sai model, cáp chập chờn hoặc pin yếu đều có thể làm gián đoạn quy trình.
-- Tùy model, công cụ có thể yêu cầu vào Fastboot, FastbootD, EDL hoặc giữ phím thủ công.
-- Cần internet để xác thực QR và dùng các tùy chọn firmware online.
+- Sao lưu dữ liệu quan trọng trước khi unlock, root, wipe hoặc xử lý firmware.
+- Bootloader đang khóa, security patch chưa hỗ trợ, cáp chập chờn, pin yếu hoặc chọn sai model đều có thể làm gián đoạn quy trình.
+- Một số workflow yêu cầu giữ phím thủ công hoặc chuyển đổi giữa Android, Fastboot, FastbootD và EDL.
+- Cần internet để xác thực và sử dụng các tùy chọn firmware online.
 
 ---
 
@@ -151,15 +152,15 @@ Tệp phát hành:
 
 | English | Tiếng Việt |
 |---|---|
-| The tool requires an active App_MTFLASH account with permission for this tool. | Công cụ cần tài khoản App_MTFLASH còn hiệu lực và có quyền sử dụng tool này. |
-| Scan the QR or enter the short number shown on the Windows app. | Quét mã QR hoặc nhập mã ngắn hiển thị trên ứng dụng Windows. |
-| Approval is required before device workflows can be used. | Cần xác nhận trước khi sử dụng các quy trình thao tác thiết bị. |
+| The tool requires an active App_MTFLASH account with permission for this product. | Công cụ cần tài khoản App_MTFLASH còn hiệu lực và có quyền sử dụng sản phẩm này. |
+| Scan the QR code or enter the short code shown in the Windows app. | Quét mã QR hoặc nhập mã ngắn hiển thị trên ứng dụng Windows. |
+| Device workflows are available only after authorization is approved. | Chỉ có thể sử dụng workflow thiết bị sau khi xác thực được chấp thuận. |
 | Internet access to the MTFLASH/APMPro service is required. | Cần internet để kết nối dịch vụ MTFLASH/APMPro. |
 
 ---
 
 ## Support / Hỗ Trợ
 
-For access, account, model support, and workflow support, contact MTFLASH through the official service channel.
+For access, account, supported model, and workflow support, contact MTFLASH through the official service channel.
 
 Để được hỗ trợ về tài khoản, quyền truy cập, model hỗ trợ và quy trình sử dụng, vui lòng liên hệ MTFLASH qua kênh dịch vụ chính thức.
