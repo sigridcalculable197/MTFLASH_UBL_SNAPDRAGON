@@ -45,12 +45,12 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 **Latest source version:** [MTFLASH UBL Tool v1.5](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.5)
 
 - **Artifact:** `UBL-Snapdragon.exe`
-- **Size:** `127,101,178` bytes
-- **SHA256:** <code>C3F9467C96AA87C52D8BC6F3AC2A8F46<wbr>E111CC039BEFDD239A0B828E66A2E715</code>
+- **Size:** `127,112,450` bytes
+- **SHA256:** <code>6FF6F5ADDEB1EBB88939022580EC5DADC4A971F09A51<wbr>349CCFBFE9A6D8AE9920</code>
 
-**v1.5 focus:** premium dark glassmorphism update gate, safer PyInstaller/Flet restart after update, faster segmented update downloads with SHA256 verification, compact premium sidebar navigation with a cleaner translucent neutral background and explicit menu trigger, hidden background update checks when no new release exists, version-aware downgrade protection, and the verified install/restart chain.
+**v1.5 focus:** premium dark glassmorphism update gate, safer PyInstaller/Flet restart after update, faster segmented update downloads with SHA256 verification, compact premium sidebar navigation with a cleaner translucent neutral background and explicit menu trigger, hidden background update checks when no new release exists, version-aware downgrade protection, high-version Xiaomi 8G2/8E mini Eng EDL handling, and the verified install/restart chain.
 
-**Trọng tâm v1.5:** giao diện kiểm tra cập nhật glassmorphism dark premium, restart sau cập nhật an toàn hơn cho PyInstaller/Flet, tải cập nhật nhanh hơn bằng chia đoạn song song có xác minh SHA256, menu sidebar compact/premium với nền kính trung tính trong hơn và điểm mở rõ ràng, kiểm tra ngầm không hiện UI khi không có release mới, chặn hạ cấp theo version, giữ chuỗi cài/khởi động lại có xác minh.
+**Trọng tâm v1.5:** giao diện kiểm tra cập nhật glassmorphism dark premium, restart sau cập nhật an toàn hơn cho PyInstaller/Flet, tải cập nhật nhanh hơn bằng chia đoạn song song có xác minh SHA256, menu sidebar compact/premium với nền kính trung tính trong hơn và điểm mở rõ ràng, kiểm tra ngầm không hiện UI khi không có release mới, chặn hạ cấp theo version, xử lý nhánh mini Eng EDL cho Xiaomi 8G2/8E bản cao, giữ chuỗi cài/khởi động lại có xác minh.
 
 **Auto-update:** before QR authorization, the frozen Windows app silently checks the latest GitHub Release. The update UI appears only when a non-older release with a different verified SHA256 is available; the downloaded file is verified, installed locally, and restarted automatically.
 
@@ -64,6 +64,7 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 - **Guided unlock:** step-based bootloader unlock flows for supported Snapdragon models.
 - **High-version Xiaomi:** Xiaomi 8 Gen 3 and 8s Gen 3 high-version paths for security patch `2026-02-01` and newer where mapped.
 - **Firmware:** Mini EngFirmware, Full EngFirmware, China Fastboot, and China HyperTN download handling where available.
+- **Xiaomi 8G2/8E high-version fallback:** mini EngFirmware EDL preconditioning with tool-bundled programmer, UFS vendor gate, FastbootD-to-Fastboot recovery, Step 2 skip, and Step 4 stop after unlock verification without misc wipe or reboot.
 - **EDL Flash:** ROM/XML selection, partition filtering, progress tracking, logs, and post-step cleanup.
 - **Storage safety:** full UFS info check with vendor, product, capacity, LUN, firmware, and serial parsing.
 - **Fastboot Flash:** queue-based flash/erase/reboot workflows with validation and status tracking.
@@ -81,6 +82,7 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 - **Unlock có hướng dẫn:** quy trình unlock bootloader theo từng bước cho model Snapdragon được hỗ trợ.
 - **Xiaomi high-version:** nhánh Xiaomi 8 Gen 3 và 8s Gen 3 cho security patch từ `2026-02-01` trở lên nếu model đã có mapping.
 - **Firmware:** xử lý tải Mini EngFirmware, Full EngFirmware, China Fastboot và China HyperTN khi model có dữ liệu.
+- **Fallback Xiaomi 8G2/8E bản cao:** tiền xử lý mini EngFirmware bằng EDL với programmer đóng gói trong tool, kiểm tra vendor UFS, tự chuyển FastbootD về Fastboot thường, bỏ qua bước 2, và dừng bước 4 sau khi verify unlock mà không wipe misc hoặc reboot.
 - **EDL Flash:** chọn ROM/XML, lọc partition, theo dõi tiến trình, log và dọn dẹp sau thao tác.
 - **Storage safety:** kiểm tra đầy đủ thông tin UFS gồm vendor, mã chip, dung lượng, LUN, firmware và serial.
 - **Fastboot Flash:** flash/erase/reboot bằng queue, có kiểm tra hợp lệ và theo dõi trạng thái.
