@@ -45,8 +45,8 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 **Latest source version:** [MTFLASH UBL Tool v1.5](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.5)
 
 - **Artifact:** `UBL-Snapdragon.exe`
-- **Size:** `127,093,711` bytes
-- **SHA256:** <code>21654E2A38EC6AE41044335CFC58DAEA<wbr>9D54B908D6CF4871D339F23E4B99E45D</code>
+- **Size:** `127,092,661` bytes
+- **SHA256:** <code>87BAC5E80992A6F52C2BB6257CB0DD6C<wbr>CCDFD1EA440E2FB9F30D4FD81DB983A8</code>
 
 **v1.5 focus:** premium dark glassmorphism update gate, compact responsive update layout, hidden background update checks when no new release exists, version-aware downgrade protection, and the existing SHA256 verified download/install/restart chain.
 
