@@ -45,12 +45,12 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 **Latest:** [MTFLASH UBL Tool v1.4](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.4)
 
 - **Artifact:** `UBL-Snapdragon.exe`
-- **Size:** `127,061,892` bytes
-- **SHA256:** <code>4A74987BF3CA250D650E55DC5F642CCD<wbr>5477CB6334DF2D9F0A1FB33723E0DA80</code>
+- **Size:** `127,063,325` bytes
+- **SHA256:** <code>E58026B962EFDAF404B828D3CDAEC523<wbr>3B0DD42D58EF498FF7DF7BB56C1727DD</code>
 
-**v1.4 focus:** premium compact unlock-header controls with icon Driver/Reboot utilities plus Brand and Chip dropdowns; ADB/Fastboot reboot actions matched to MTFLASH TOOL; and elevated Xiaomi USB / Qualcomm 9008 driver installation from bundled local driver files.
+**v1.4 focus:** redesigned two-zone unlock controls with a compact Brand/Chip context selector and a separate Driver/Reboot quick-action rail; balanced dark glass dropdown sizing; ADB/Fastboot reboot actions matched to MTFLASH TOOL; and elevated Xiaomi USB / Qualcomm 9008 driver installation from bundled local driver files.
 
-**Trọng tâm v1.4:** cụm điều khiển màn hình unlock gọn, cao cấp với Driver/Khởi động dạng icon dropdown cùng Brand và Chip; thao tác reboot ADB/Fastboot đồng bộ với MTFLASH TOOL; cài Driver USB Xiaomi / Qualcomm 9008 bằng quyền admin từ driver local được bundle sẵn trong tool.
+**Trọng tâm v1.4:** thiết kế lại điều khiển màn hình unlock thành hai vùng: cụm chọn Brand/Chip gọn và rail thao tác nhanh Cài Driver/Khởi động riêng; dropdown glass dark cân đối kích thước; thao tác reboot ADB/Fastboot đồng bộ với MTFLASH TOOL; cài Driver USB Xiaomi / Qualcomm 9008 bằng quyền admin từ driver local được bundle sẵn trong tool.
 
 ## Feature Map
 
@@ -63,7 +63,7 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 - **EDL Flash:** ROM/XML selection, partition filtering, progress tracking, logs, and post-step cleanup.
 - **Storage safety:** full UFS info check with vendor, product, capacity, LUN, firmware, and serial parsing.
 - **Fastboot Flash:** queue-based flash/erase/reboot workflows with validation and status tracking.
-- **Unlock quick utilities:** compact Driver and Reboot dropdowns on the unlock screen for ADB/Fastboot reboot targets and elevated driver installs.
+- **Unlock quick utilities:** redesigned two-zone unlock controls for Brand/Chip selection, ADB/Fastboot reboot targets, and elevated local driver installs.
 - **Root assistant:** supported Magisk, KernelSU, KernelSU Next, and SukiSU workflows for unlocked devices.
 - **Authorization:** QR and short-code authorization through App_MTFLASH before protected workflows.
 
@@ -78,7 +78,7 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 - **EDL Flash:** chọn ROM/XML, lọc partition, theo dõi tiến trình, log và dọn dẹp sau thao tác.
 - **Storage safety:** kiểm tra đầy đủ thông tin UFS gồm vendor, mã chip, dung lượng, LUN, firmware và serial.
 - **Fastboot Flash:** flash/erase/reboot bằng queue, có kiểm tra hợp lệ và theo dõi trạng thái.
-- **Tiện ích nhanh trong Unlock:** dropdown Cài Driver và Khởi động ngay trên màn hình unlock cho reboot ADB/Fastboot và cài driver bằng quyền admin.
+- **Tiện ích nhanh trong Unlock:** bố cục hai vùng mới cho chọn Brand/Chip, reboot ADB/Fastboot và cài driver local bằng quyền admin.
 - **Root assistant:** hỗ trợ Magisk, KernelSU, KernelSU Next và SukiSU cho thiết bị đã unlock.
 - **Authorization:** xác thực bằng QR hoặc mã ngắn qua App_MTFLASH trước khi dùng workflow bảo vệ.
 
