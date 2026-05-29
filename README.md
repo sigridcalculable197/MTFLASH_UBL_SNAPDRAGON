@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/readme/hero-v13-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="docs/readme/hero-v13-light.svg">
-  <img alt="MTFLASH UBL Snapdragon v1.5 premium update gate banner" src="docs/readme/hero-v13-dark.svg" width="100%">
+  <img alt="MTFLASH UBL Snapdragon v1.5 premium workspace banner" src="docs/readme/hero-v13-dark.svg" width="100%">
 </picture>
 
 <p align="center">
@@ -45,12 +45,12 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 **Latest source version:** [MTFLASH UBL Tool v1.5](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.5)
 
 - **Artifact:** `UBL-Snapdragon.exe`
-- **Size:** `127,092,661` bytes
-- **SHA256:** <code>87BAC5E80992A6F52C2BB6257CB0DD6C<wbr>CCDFD1EA440E2FB9F30D4FD81DB983A8</code>
+- **Size:** `127,094,846` bytes
+- **SHA256:** <code>7D5860CA03C4EFAA28F5D30325082319<wbr>D3FD99790510796D0886BED6D569CDAE</code>
 
-**v1.5 focus:** premium dark glassmorphism update gate, compact responsive update layout, hidden background update checks when no new release exists, version-aware downgrade protection, and the existing SHA256 verified download/install/restart chain.
+**v1.5 focus:** premium dark glassmorphism update gate, compact premium sidebar navigation with an explicit menu trigger, hidden background update checks when no new release exists, version-aware downgrade protection, and the existing SHA256 verified download/install/restart chain.
 
-**Trọng tâm v1.5:** giao diện kiểm tra cập nhật glassmorphism dark premium, bố cục cập nhật compact và responsive, kiểm tra ngầm không hiện UI khi không có release mới, chặn hạ cấp theo version, giữ chuỗi tải/cài/khởi động lại có xác minh SHA256.
+**Trọng tâm v1.5:** giao diện kiểm tra cập nhật glassmorphism dark premium, menu sidebar compact/premium có điểm mở rõ ràng, kiểm tra ngầm không hiện UI khi không có release mới, chặn hạ cấp theo version, giữ chuỗi tải/cài/khởi động lại có xác minh SHA256.
 
 **Auto-update:** before QR authorization, the frozen Windows app silently checks the latest GitHub Release. The update UI appears only when a non-older release with a different verified SHA256 is available; the downloaded file is verified, installed locally, and restarted automatically.
 
@@ -68,6 +68,7 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 - **Storage safety:** full UFS info check with vendor, product, capacity, LUN, firmware, and serial parsing.
 - **Fastboot Flash:** queue-based flash/erase/reboot workflows with validation and status tracking.
 - **Unlock quick utilities:** redesigned two-zone unlock controls for Brand/Chip selection, ADB/Fastboot reboot targets, and elevated local driver installs.
+- **Premium sidebar:** compact dark glassmorphism navigation with clearer menu discovery, responsive spacing, active-state glow, and clipped-safe labels.
 - **Verified auto-update:** silent pre-QR release check; premium update gate only when needed, with version guard, SHA256 comparison, verified download, local replacement, and automatic restart.
 - **Root assistant:** supported Magisk, KernelSU, KernelSU Next, and SukiSU workflows for unlocked devices.
 - **Authorization:** QR and short-code authorization through App_MTFLASH before protected workflows.
@@ -84,6 +85,7 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 - **Storage safety:** kiểm tra đầy đủ thông tin UFS gồm vendor, mã chip, dung lượng, LUN, firmware và serial.
 - **Fastboot Flash:** flash/erase/reboot bằng queue, có kiểm tra hợp lệ và theo dõi trạng thái.
 - **Tiện ích nhanh trong Unlock:** bố cục hai vùng mới cho chọn Brand/Chip, reboot ADB/Fastboot và cài driver local bằng quyền admin.
+- **Sidebar premium:** menu điều hướng dark glassmorphism gọn hơn, dễ nhận biết vị trí mở menu, spacing responsive, hiệu ứng active nổi bật và label không bị cắt/tràn.
 - **Tự động cập nhật có xác minh:** kiểm tra release ngầm trước QR; chỉ hiện update gate premium khi cần, có chặn hạ cấp version, so sánh SHA256, xác minh file tải, thay thế file local và tự khởi động lại.
 - **Root assistant:** hỗ trợ Magisk, KernelSU, KernelSU Next và SukiSU cho thiết bị đã unlock.
 - **Authorization:** xác thực bằng QR hoặc mã ngắn qua App_MTFLASH trước khi dùng workflow bảo vệ.
