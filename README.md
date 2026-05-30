@@ -45,8 +45,8 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 **Latest source version:** [MTFLASH UBL Tool v1.5](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.5)
 
 - **Artifact:** `UBL-Snapdragon.exe`
-- **Size:** `129,448,002` bytes
-- **SHA256:** <code>8388A771EABC770540D3827B7A8172F8DB07045CDE5B508E878D0DE3656<wbr>D76A8</code>
+- **Size:** `129,449,850` bytes
+- **SHA256:** <code>193255EED6790F6ACDD4930443DD9B352C96B8CF32EA99E10EF5A09767DF<wbr>6719</code>
 
 **v1.5 focus:** premium dark glassmorphism update gate, safer PyInstaller/Flet restart after update, faster segmented update downloads with SHA256 verification, compact premium sidebar navigation with a cleaner translucent neutral background and explicit menu trigger, hidden background update checks when no new release exists, version-aware downgrade protection, post-QR automatic Xiaomi USB/Qualcomm 9008 driver readiness, high-version Xiaomi 8G2/8E mini Eng EDL handling, Xiaomi 8SG4 Secure Unlock authorization with encrypted boot asset packaging, and the verified install/restart chain.
 
