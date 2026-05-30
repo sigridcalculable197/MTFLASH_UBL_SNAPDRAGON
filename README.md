@@ -45,12 +45,12 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 **Latest source version:** [MTFLASH UBL Tool v1.5](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.5)
 
 - **Artifact:** `UBL-Snapdragon.exe`
-- **Size:** `129,449,850` bytes
-- **SHA256:** <code>193255EED6790F6ACDD4930443DD9B352C96B8CF32EA99E10EF5A09767DF<wbr>6719</code>
+- **Size:** `129,448,567` bytes
+- **SHA256:** <code>001A7AD922166B8CC9BD51E721CE2EF4EEF7F8B18B44F9F8C4DAADD29CC<wbr>52558</code>
 
-**v1.5 focus:** premium dark glassmorphism update gate, safer PyInstaller/Flet restart after update, faster segmented update downloads with SHA256 verification, compact premium sidebar navigation with a cleaner translucent neutral background and explicit menu trigger, hidden background update checks when no new release exists, version-aware downgrade protection, post-QR automatic Xiaomi USB/Qualcomm 9008 driver readiness, high-version Xiaomi 8G2/8E mini Eng EDL handling, Xiaomi 8SG4 Secure Unlock authorization with encrypted boot asset packaging, and the verified install/restart chain.
+**v1.5 focus:** premium dark glassmorphism update gate, safer PyInstaller/Flet restart after update, faster segmented update downloads with SHA256 verification, compact premium sidebar navigation with a cleaner translucent neutral background and explicit menu trigger, hidden background update checks when no new release exists, version-aware downgrade protection, post-QR automatic Xiaomi USB/Qualcomm 9008 driver readiness, high-version Xiaomi 8G2/8E mini Eng EDL handling, Xiaomi 8SG4 Secure Unlock authorization with encrypted boot asset packaging, automatic 8SG4 Fastboot wait after `fastboot boot`, and the verified install/restart chain.
 
-**Trọng tâm v1.5:** giao diện kiểm tra cập nhật glassmorphism dark premium, restart sau cập nhật an toàn hơn cho PyInstaller/Flet, tải cập nhật nhanh hơn bằng chia đoạn song song có xác minh SHA256, menu sidebar compact/premium với nền kính trung tính trong hơn và điểm mở rõ ràng, kiểm tra ngầm không hiện UI khi không có release mới, chặn hạ cấp theo version, tự kiểm tra/cài Xiaomi USB và Qualcomm 9008 driver sau QR, xử lý nhánh mini Eng EDL cho Xiaomi 8G2/8E bản cao, xác thực Secure Unlock riêng cho Xiaomi 8SG4 với boot asset được mã hóa, giữ chuỗi cài/khởi động lại có xác minh.
+**Trọng tâm v1.5:** giao diện kiểm tra cập nhật glassmorphism dark premium, restart sau cập nhật an toàn hơn cho PyInstaller/Flet, tải cập nhật nhanh hơn bằng chia đoạn song song có xác minh SHA256, menu sidebar compact/premium với nền kính trung tính trong hơn và điểm mở rõ ràng, kiểm tra ngầm không hiện UI khi không có release mới, chặn hạ cấp theo version, tự kiểm tra/cài Xiaomi USB và Qualcomm 9008 driver sau QR, xử lý nhánh mini Eng EDL cho Xiaomi 8G2/8E bản cao, xác thực Secure Unlock riêng cho Xiaomi 8SG4 với boot asset được mã hóa, tự chờ 8SG4 quay lại Fastboot sau `fastboot boot`, giữ chuỗi cài/khởi động lại có xác minh.
 
 **Auto-update:** before QR authorization, the frozen Windows app silently checks the latest GitHub Release. The update UI appears only when a non-older release with a different verified SHA256 is available; the downloaded file is verified, installed locally, and restarted automatically.
 
