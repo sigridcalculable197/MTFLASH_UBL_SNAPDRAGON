@@ -45,12 +45,12 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 **Latest source version:** [MTFLASH UBL Tool v1.5](https://github.com/tamm2904/MTFLASH_UBL_SNAPDRAGON/releases/tag/v1.5)
 
 - **Artifact:** `UBL-Snapdragon.exe`
-- **Size:** `128,483,768` bytes
-- **SHA256:** <code>0AA8D6A6EADB45C0A967B1A01D5DC0AC528E5312B4A9EED65826<wbr>CDF4A47A0104</code>
+- **Size:** `129,447,309` bytes
+- **SHA256:** <code>D2C68DCAF6284181E692B222BBE8824AF3F76E507223C6057236465<wbr>E5E6BBC4E</code>
 
-**v1.5 focus:** premium dark glassmorphism update gate, safer PyInstaller/Flet restart after update, faster segmented update downloads with SHA256 verification, compact premium sidebar navigation with a cleaner translucent neutral background and explicit menu trigger, hidden background update checks when no new release exists, version-aware downgrade protection, post-QR automatic Xiaomi USB/Qualcomm 9008 driver readiness, high-version Xiaomi 8G2/8E mini Eng EDL handling, and the verified install/restart chain.
+**v1.5 focus:** premium dark glassmorphism update gate, safer PyInstaller/Flet restart after update, faster segmented update downloads with SHA256 verification, compact premium sidebar navigation with a cleaner translucent neutral background and explicit menu trigger, hidden background update checks when no new release exists, version-aware downgrade protection, post-QR automatic Xiaomi USB/Qualcomm 9008 driver readiness, high-version Xiaomi 8G2/8E mini Eng EDL handling, Xiaomi 8SG4 Secure Unlock authorization with encrypted boot asset packaging, and the verified install/restart chain.
 
-**Trọng tâm v1.5:** giao diện kiểm tra cập nhật glassmorphism dark premium, restart sau cập nhật an toàn hơn cho PyInstaller/Flet, tải cập nhật nhanh hơn bằng chia đoạn song song có xác minh SHA256, menu sidebar compact/premium với nền kính trung tính trong hơn và điểm mở rõ ràng, kiểm tra ngầm không hiện UI khi không có release mới, chặn hạ cấp theo version, tự kiểm tra/cài Xiaomi USB và Qualcomm 9008 driver sau QR, xử lý nhánh mini Eng EDL cho Xiaomi 8G2/8E bản cao, giữ chuỗi cài/khởi động lại có xác minh.
+**Trọng tâm v1.5:** giao diện kiểm tra cập nhật glassmorphism dark premium, restart sau cập nhật an toàn hơn cho PyInstaller/Flet, tải cập nhật nhanh hơn bằng chia đoạn song song có xác minh SHA256, menu sidebar compact/premium với nền kính trung tính trong hơn và điểm mở rõ ràng, kiểm tra ngầm không hiện UI khi không có release mới, chặn hạ cấp theo version, tự kiểm tra/cài Xiaomi USB và Qualcomm 9008 driver sau QR, xử lý nhánh mini Eng EDL cho Xiaomi 8G2/8E bản cao, xác thực Secure Unlock riêng cho Xiaomi 8SG4 với boot asset được mã hóa, giữ chuỗi cài/khởi động lại có xác minh.
 
 **Auto-update:** before QR authorization, the frozen Windows app silently checks the latest GitHub Release. The update UI appears only when a non-older release with a different verified SHA256 is available; the downloaded file is verified, installed locally, and restarted automatically.
 
@@ -65,6 +65,7 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 - **High-version Xiaomi:** Xiaomi 8 Gen 3 and 8s Gen 3 high-version paths for security patch `2026-02-01` and newer where mapped.
 - **Firmware:** Mini EngFirmware, Full EngFirmware, China Fastboot, and China HyperTN download handling where available.
 - **Xiaomi 8G2/8E high-version fallback:** mini EngFirmware EDL preconditioning with tool-bundled programmer, UFS vendor gate, FastbootD-to-Fastboot recovery, Step 2 skip, and Step 4 stop after unlock verification without misc wipe or reboot.
+- **Xiaomi 8SG4 Secure Unlock:** one-time server grant, Android approver capability check, signed encrypted authorization blob, and encrypted boot asset packaging.
 - **EDL Flash:** ROM/XML selection, partition filtering, progress tracking, logs, and post-step cleanup.
 - **Storage safety:** full UFS info check with vendor, product, capacity, LUN, firmware, and serial parsing.
 - **Fastboot Flash:** queue-based flash/erase/reboot workflows with validation and status tracking.
@@ -88,6 +89,7 @@ MTFLASH UBL Snapdragon là công cụ Windows có hướng dẫn cho một số 
 - **Storage safety:** kiểm tra đầy đủ thông tin UFS gồm vendor, mã chip, dung lượng, LUN, firmware và serial.
 - **Fastboot Flash:** flash/erase/reboot bằng queue, có kiểm tra hợp lệ và theo dõi trạng thái.
 - **Tiện ích nhanh trong Unlock:** bố cục hai vùng mới cho chọn Brand/Chip, reboot ADB/Fastboot và cài driver local bằng quyền admin.
+- **Xiaomi 8SG4 Secure Unlock:** grant một lần từ server, kiểm tra quyền Android approver, blob authorization mã hóa có chữ ký và đóng gói boot asset ở dạng encrypted.
 - **Sẵn sàng driver sau QR:** sau khi xác thực, app kiểm tra Xiaomi USB và Qualcomm 9008 trong Driver Store, rồi tự động cài gói driver có sẵn nếu còn thiếu.
 - **Sidebar premium:** menu điều hướng dark glassmorphism gọn hơn, nền kính trung tính trong hơn, header tinh gọn hơn, dễ nhận biết vị trí mở menu, spacing responsive, active state tiết chế và label không bị cắt/tràn.
 - **Tự động cập nhật bền vững có xác minh:** kiểm tra release ngầm trước QR; chỉ hiện update gate premium khi cần, có chặn hạ cấp version, so sánh SHA256, tải chia đoạn song song khi server hỗ trợ, fallback tải một luồng, restart an toàn cho PyInstaller, thay thế file local và tự khởi động lại.
